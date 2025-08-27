@@ -1,0 +1,25 @@
+_output
+_test
+.idea
+.vscode
+*.code-workspace
+.venv
+
+# OSX files
+.DS_Store
+
+# ignore intermediate files that gomock sometimes generates
+**/gomock_reflect*
+
+.vscode/launch.json
+.vscode/settings.json
+*__debug_bin
+
+# e2e tests
+*.test
+# swp files
+*.swp
+
+*.o
+*.d
+*-build
